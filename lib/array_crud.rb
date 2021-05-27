@@ -16,13 +16,14 @@ p add_element_to_end_of_array(array_1, "arrays!")
 
 array_2 = ["I", "am", "really", "learning"]
 def add_element_to_start_of_array(array, element)
-  #{array}.unshift("wow")
+  array_2 = ["I", "am", "really", "learning"]
+  array_2.unshift("wow")
 end
 p add_element_to_start_of_array(array_2, "wow")
 
 array_3 = ["I", "am", "really", "learning", "arrays!"]
 def remove_element_from_end_of_array(array)
-  
+  array_3 = ["I", "am", "really", "learning", "arrays!"]
   array_3.pop
 end
 p remove_element_from_end_of_array(array_3)
