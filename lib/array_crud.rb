@@ -50,5 +50,6 @@ end
 p retrieve_last_element_from_array "array_7"
 
 def update_element_from_index(array, index_number, element)
-
+  array_8 = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array_8 []
 end
