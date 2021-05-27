@@ -33,7 +33,7 @@ p remove_element_from_start_of_array "array_4"
 
 def retrieve_element_from_index(array, index_number)
   array_5 = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array_5 [2]
+  array_5 [#{index_number.to_i}]
 end
 p retrieve_element_from_index "array_5", "2"
 
