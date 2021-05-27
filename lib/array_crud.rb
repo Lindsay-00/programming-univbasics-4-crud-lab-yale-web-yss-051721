@@ -5,7 +5,7 @@ end
 def create_an_array
   ["a", "b", "c", "d"]
 end
-puts create_an_array
+p create_an_array
 
 array_1 = ["wow", "I", "am", "really", "learning"]
 def add_element_to_end_of_array(array, element)
