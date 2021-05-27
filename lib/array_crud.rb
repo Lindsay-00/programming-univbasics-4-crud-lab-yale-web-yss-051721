@@ -15,7 +15,7 @@ p add_element_to_end_of_array "array_1", "arrays!"
 
 def add_element_to_start_of_array(array, element)
   array_2 = ["I", "am", "really", "learning"]
-  array_2.unshift("wow")
+  array_2.unshift("#{element}")
 end
 p add_element_to_start_of_array "array_2", "wow"
 
