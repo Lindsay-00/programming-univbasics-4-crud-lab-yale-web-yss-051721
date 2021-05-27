@@ -9,7 +9,7 @@ p create_an_array
 
 def add_element_to_end_of_array(array, element)
   array_1 = ["wow", "I", "am", "really", "learning"]
-  array_1 << "#{element}"
+  "#{array}" << "#{element}"
 end
 p add_element_to_end_of_array "array_1", "arrays!"
 
