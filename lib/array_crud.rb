@@ -24,14 +24,15 @@ def remove_element_from_end_of_array(array)
   array_3.pop
 end
 p remove_element_from_end_of_array "array_3"
-array_4 = ["wow", "I", "am", "really", "learning", "arrays!"]
+
 def remove_element_from_start_of_array(array)
-  
+  array_4 = ["wow", "I", "am", "really", "learning", "arrays!"]
   array_4.shift 
 end
 p remove_element_from_start_of_array "array_4"
 
 def retrieve_element_from_index(array, index_number)
+  array_5 = ["wow", "I", "am", "really", "learning", "arrays!"]
   
 end
 
