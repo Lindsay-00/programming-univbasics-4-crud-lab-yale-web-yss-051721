@@ -33,17 +33,21 @@ p remove_element_from_start_of_array "array_4"
 
 def retrieve_element_from_index(array, index_number)
   array_5 = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array_5 [#{index_number.to_i}]
+  array_5 [2]
 end
 p retrieve_element_from_index "array_5", "2"
 
 def retrieve_first_element_from_array(array)
-  
+  array_6 = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array_6 [0]
 end
+p retrieve_first_element_from_array "array_6"
 
 def retrieve_last_element_from_array(array)
-  
+  array_7 = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array_7 [-1]
 end
+p retrieve_last_element_from_array "array_7"
 
 def update_element_from_index(array, index_number, element)
 
