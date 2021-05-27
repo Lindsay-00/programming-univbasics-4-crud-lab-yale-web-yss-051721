@@ -35,7 +35,7 @@ def retrieve_element_from_index(array, index_number)
   array_5 = ["wow", "I", "am", "really", "learning", "arrays!"]
   array_5 [#{index_number.to_i}]
 end
-p retrieve_element_from_index "array_5", "2"
+p retrieve_element_from_index "array_5", "2.to_i"
 
 def retrieve_first_element_from_array(array)
   
